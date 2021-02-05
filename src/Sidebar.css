@@ -1,0 +1,32 @@
+.sidebar{
+    flex: 0.3;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    border-right: #b1b1b1 1px solid;
+}
+
+.sidebar__logo{
+    font-size: 32px !important;
+    color: var(--primary-color);
+    margin: 20px;
+}
+
+.sidebar__tweetBtn{
+    margin-top: 24px;
+    width: 70%;
+    min-height: 28px;
+    border-radius: 40px;
+    padding: 20px 0;
+    background-color: var(--primary-color);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+}
+
+.sidebar__tweetBtn:hover{
+    background-color: #1b24a5;
+    cursor: pointer; 
+}
