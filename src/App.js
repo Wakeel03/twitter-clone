@@ -1,5 +1,8 @@
 import './App.css';
 import  Sidebar from './Sidebar'
+import Feeds from './Feeds'
+import RightPanel from './RightPanel'
+
 
 
 function App() {
@@ -7,6 +10,7 @@ function App() {
     <div className="app">
       <Sidebar />
       <Feeds />
+      <RightPanel />
     </div>
   );
 }

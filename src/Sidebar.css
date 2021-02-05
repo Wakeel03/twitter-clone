@@ -1,9 +1,9 @@
 .sidebar{
-    flex: 0.3;
+    flex: 0.2;
     position: sticky;
     top: 0;
     height: 100vh;
-    border-right: #b1b1b1 1px solid;
+    /*border-right: #b1b1b1 1px solid;*/
 }
 
 .sidebar__logo{
@@ -14,7 +14,7 @@
 
 .sidebar__tweetBtn{
     margin-top: 24px;
-    width: 70%;
+    width: 90%;
     min-height: 28px;
     border-radius: 40px;
     padding: 20px 0;
