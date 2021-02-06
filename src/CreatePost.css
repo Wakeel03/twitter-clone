@@ -1,45 +1,74 @@
-.createPost{
-    width: 100%;
-    border: #dfdfdf 1px solid;
-    border-bottom: #dfdfdf 8px solid;
+.createPost {
+  width: 100%;
+  border: #dfdfdf 1px solid;
+  border-bottom: #dfdfdf 8px solid;
 }
 
-.createPost__header{
-    width: 100%;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    border-bottom: #dfdfdf 1px solid;
+.createPost__header {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  border-bottom: #dfdfdf 1px solid;
 }
 
-.createPost__header h2{
-    font-size: 24px;
-    font-weight: 800;
+.createPost__header h2 {
+  font-size: 24px;
+  font-weight: 800;
 }
 
-.createPost form{
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
+.createPost form {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
-.createPost form input{
-    padding: 20px;
-    font-size: 22px;
-    border: none;
+.createPost__input{
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
 }
 
-.createPost form button{
-    align-self: flex-end;
-    width: 100px;
+.createPost__profilePicture{
+    width: 40px;
     height: 40px;
     border-radius: 30px;
-    padding: 20px;
-    font-size: 18px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--primary-color);
-    color: #ffffff;
-    border-color: transparent;
+    object-fit: contain;
+    margin-right: 12px;
+}
+
+.createPost form input {
+  padding: 20px;
+  font-size: 22px;
+  border: none;
+}
+
+.createPost form input:focus {
+  outline: none;
+}
+
+.createPost__imageUrl{
+  padding: 10px 20px !important;
+  font-size: 14px !important;
+}
+
+.createPost form button {
+  align-self: flex-end;
+  width: 90px;
+  height: 36px;
+  border-radius: 30px;
+  padding: 16px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color);
+  color: #ffffff;
+  border-color: transparent;
+}
+
+.createPost form button:hover{
+  cursor: pointer;
+  background-color: #1b24a5;
+  outline: none;
 }

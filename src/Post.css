@@ -10,49 +10,47 @@
 }
 
 .post__profilePicture{
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     border-radius: 30px;
     object-fit: contain;
     margin-right: 12px;
 }
 
 .post__username{
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 600;
-    margin-right: 6px;
+    margin-right: 4px;
 }
 
 .post__username2{
     color: #9b9b9b;
-    font-size: 18px;
+    font-size: 14px;
     margin-right: 16px;
 }
 
 .post__timeElapsed{
-    font-size: 18px;
+    font-size: 14px;
     color: #9b9b9b;
 }
 
 .post__description{
-    margin-top: -10px;
-    margin-left: 72px;
-    font-size: 18px;
+    margin-left: 52px;
+    font-size: 14px;
     letter-spacing: .2px;
 }
 
 .post__image{
-    margin-top: 30px;
-    max-width:inherit;
-    object-fit: contain;
+    margin-top: 20px;
     border-radius: 30px;
-    margin-left: 72px;
+    margin-left: 52px;
+    border: #9b9b9b 1px solid;
 }
 
 .post__actions{
     display: flex;
     justify-content: space-between;
-    margin: 12px 72px;
+    margin: 16px 60px;
     align-items: center;
 }
 

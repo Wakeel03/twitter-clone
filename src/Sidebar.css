@@ -3,13 +3,14 @@
     position: sticky;
     top: 0;
     height: 100vh;
+    margin-right: 40px;
     /*border-right: #b1b1b1 1px solid;*/
 }
 
 .sidebar__logo{
     font-size: 32px !important;
     color: var(--primary-color);
-    margin: 20px;
+    margin: 20px 0 10px 20px;
 }
 
 .sidebar__tweetBtn{
@@ -17,13 +18,13 @@
     width: 90%;
     min-height: 28px;
     border-radius: 40px;
-    padding: 20px 0;
+    padding: 14px 0;
     background-color: var(--primary-color);
     color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .sidebar__tweetBtn:hover{

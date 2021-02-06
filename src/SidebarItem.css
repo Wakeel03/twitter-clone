@@ -1,6 +1,6 @@
 .sidebarItem{
     display: flex;
-    margin: 16px 0;
+    margin: 10px 0;
     padding: 10px 20px;
     width: fit-content;
     border-radius: 40px;
@@ -11,10 +11,12 @@
 .sidebarItem:hover{
     cursor: pointer;
     background-color: var(--secondary-color);
+    
 }
 
 .sidebarItem:hover .sidebarItem__name{
     color: var(--primary-color);
+    transition: color 100ms ease-out;
 }
 
 .sidebarItem:hover .sidebarItem__icon{
@@ -23,10 +25,10 @@
 
 .sidebarItem__icon{
     margin-right: 20px;
-    font-size: 32px !important;
+    font-size: 28px !important;
 }
 
 .sidebarItem__name{
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 800;
 }
