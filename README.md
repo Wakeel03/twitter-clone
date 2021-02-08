@@ -71,3 +71,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ##Installs
 npm install --save react-twitter-embed
+npm i react-router-dom
+npm add @react-firebase/auth
+

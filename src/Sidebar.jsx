@@ -7,12 +7,36 @@ import { FiBell } from 'react-icons/fi'
 import { BsBookmark } from 'react-icons/bs'
 import { CgProfile, CgMoreO } from 'react-icons/cg' 
 
+import { useStateValue } from './StateProvider'
+import { auth } from "./firebase";
+import { Link } from "react-router-dom";
+
+
 
 import React from 'react'
 
 function Sidebar() {
+
+    const [{ user }, dispatch] = useStateValue()
+
+    /*const add = () => {
+        dispatch({
+            type: 'ADD',
+            item: 1
+        })
+    }*/
+
+    const handleAuthenticaton = () => {
+    if (user) {
+      auth.signOut();
+    }
+  }
+
     return (
         <div className="sidebar">
+            <Link to="/">
+                <button onClick={handleAuthenticaton}>Sign out</button>
+            </Link>
             <IoLogoTwitter className="sidebar__logo" />
 
             <div className="sidebar__itemList">
